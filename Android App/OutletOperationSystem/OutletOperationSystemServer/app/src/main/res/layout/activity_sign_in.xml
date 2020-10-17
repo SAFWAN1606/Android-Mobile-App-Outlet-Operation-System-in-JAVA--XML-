@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPhone"
+            android:hint="@string/phoneNumberHint"
+
+            android:textColor="@android:color/black"
+            android:textSize="34sp"
+            android:inputType="phone"
+
+            />
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editPassword"
+            android:hint="@string/passwordHint"
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+            android:layout_height="wrap_content"
+
+            app:passwordToggleEnabled = "true"
+            android:textColor="@android:color/black"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+
+            />
+
+    </LinearLayout>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnSignIn"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        android:text="Sign In"
+        app:cornerRadius="4dp"
+        app:fButtonColor="@color/colorWarningActive"
+
+        />
+</RelativeLayout>

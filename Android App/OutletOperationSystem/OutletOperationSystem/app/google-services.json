@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "248249493149",
+    "firebase_url": "https://outletoperationsystem.firebaseio.com",
+    "project_id": "outletoperationsystem",
+    "storage_bucket": "outletoperationsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248249493149:android:903e1e4dc354b7c4",
+        "android_client_info": {
+          "package_name": "com.outlet.outletoperationsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmsH9bpNQTk7jRmX1hXOUWZOmU5i05ry4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248249493149-9psvvj06j643oqpd4mbim31tot0sh2h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
